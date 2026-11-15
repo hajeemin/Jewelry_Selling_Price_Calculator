@@ -1,0 +1,18 @@
+# Python 가상환경
+.venv/
+venv/
+
+# Python 임시 파일
+__pycache__/
+*.pyc
+
+# 비밀번호 및 API 키
+.env
+.env.*
+!.env.example
+
+# Streamlit 비밀 설정
+.streamlit/secrets.toml
+
+# VS Code 개인 설정
+.vscode/
