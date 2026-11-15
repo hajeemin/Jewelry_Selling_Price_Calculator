@@ -82,7 +82,7 @@ Python과 Streamlit을 활용한 주얼리 견적 및 판매가 계산 프로젝
 
 
 5. ⬇️마지막으로 웹 페이지를 만들어 봄: gpt한테 물어보며 Streamlit이라는걸 이용해 만들어봤는데 매우 허접하지만 꽤나 맘에 듦.
-
+    들어가보기 => [주얼리 판매가 계산기 열기](https://jewelrysellingpricecalculator-kpqhjk8hsxqjvdkthpv3yo.streamlit.app/)
 
 ![주얼리 계산기 실행 화면](images/cal_01.png)
 ![주얼리 계산기 실행 화면](images/cal_02.png)
