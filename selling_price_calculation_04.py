@@ -18,27 +18,26 @@ g_c = gold_cost()
 
 stone_cost = int(input("스톤값을 입력하세요:"))
 
-print(" ") # 붙어서 나오는게 안예뻐서 띄어쓰기함.
-print("----------공임값 계산을 시작하겠습니다----------")
-print(" ")
+print("\n----------공임값 계산을 시작하겠습니다----------\n")
+
 production_cost_01 = int(input("기본 공임값을 입력하세요:"))
 diamond_setting_cost = int(input("다이아 세팅 값을 입력하세요:"))
 gold_plating_cost = int(input("도금비를 입력하세요:"))
-print(" ")
-print("공임값은 총:", production_cost_01 + diamond_setting_cost + gold_plating_cost, "입니다.")
-print(" ")
+
+print("\n공임값은 총:", production_cost_01 + diamond_setting_cost + gold_plating_cost, "입니다.\n")
+
 
 total_cost = g_c + production_cost_01 + diamond_setting_cost + gold_plating_cost + stone_cost 
 
-print(" ")
-print("**총 원가는", format(total_cost,","), "원 입니다.**")
-print(" ")
+
+print("\n**총 원가는", format(total_cost,","), "원 입니다.**\n")
+
 multiplier = float(input("판매 배수를 입력하세요:"))
-print(" ")
-print("***판매가는", format(int(total_cost*multiplier),","),"원 입니다.***")
+
+print("\n***판매가는", format(int(total_cost*multiplier),","),"원 입니다.***\n")
 sales_price=int(total_cost*multiplier)
-print(" ")
-discount = int(input("할인 %를 입력하세요."))
+
+discount = int(input("\n할인 %를 입력하세요.\n"))
 final_cost = int(sales_price*((100-discount)/100))
 print(discount,"%할인가는", format(final_cost,","),"원 입니다.")
 
